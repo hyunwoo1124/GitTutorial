@@ -1,0 +1,23 @@
+1. Set your Credentials
+	git config --global.user.name "Your Name"
+	git config --global.user.email  youremail@csu.fullerton.edu
+	git config --global.core.editor yourtextEdittorChoiceMineIsVim
+	
+	git config --list // this will output what you set as your credentials
+
+2. Clone or Create Repository in github
+	Clone
+	cd ~ // this will take you to the home directory
+	mkdir yourDirectoryName
+	cd yourDirectoryName
+	git init		// initialize git to your directory
+	git clone https://githu.com/addressOfRepository/NameOfRepository
+	// at this point you should have the same file as the repository 
+	// as the repository you cloned.
+	vim message.cpp
+	// write whatever you want to push into the github using terminal
+	git add message.cpp
+	git push
+	// terminal will ask you to type your github ID and password.
+
+	
