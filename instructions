@@ -19,5 +19,6 @@
 	git add message.cpp
 	git push
 	// terminal will ask you to type your github ID and password.
+	git commit -m "Pushed my new version check it out" # you can make any comments here
 
 	
