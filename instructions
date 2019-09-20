@@ -1,7 +1,7 @@
 1. Set your Credentials
-	git config --global.user.name "Your Name"
-	git config --global.user.email  youremail@csu.fullerton.edu
-	git config --global.core.editor yourtextEdittorChoiceMineIsVim
+	git config --global user.name "Your Name"
+	git config --global user.email  youremail@csu.fullerton.edu
+	git config --global core.editor yourtextEdittorChoiceMineIsVim
 	
 	git config --list // this will output what you set as your credentials
 
